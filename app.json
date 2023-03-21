@@ -1,14 +1,14 @@
 {
   "expo": {
-    "name": "ourvillage-app",
-    "slug": "ourvillage-app",
+    "name": "eazycart-app",
+    "slug": "ezcart",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
     "splash": {
       "image": "./assets/splash.png",
-      "resizeMode": "contain",
+      "resizeMode": "cover",
       "backgroundColor": "#ffffff"
     },
     "updates": {
@@ -24,10 +24,16 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "package": "com.eazycart.app"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "e5a173eb-8abb-474e-9569-ea8337bbe47b"
+      }
     }
   }
 }
